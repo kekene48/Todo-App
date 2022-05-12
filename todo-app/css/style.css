@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5% !important; /*1rem = 10px*/
+    overflow-x: hidden;
+}
+
+.body {
+    width: 100%;
+    margin-top: -14rem;
+    margin-left: 20rem;
+}
+
+.header-img {
+    min-width: 100%;  
+    height: 19.5rem;
+}
+
+.header-img2 {
+    width: 100%;
+    margin-top: -20rem;
+    height: 20rem;
+    display: none;
+}
+
+/* @media only screen and (min-width: 400px) {
+    .header-img {
+        min-height: 10rem;
+    }
+}
+
+/* @media only screen and (min-width: 340px) {
+    .header-img {
+        min-height: 10rem;
+    }
+} */ 
+
+.header1 {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 2.2rem;
+    letter-spacing: 0.4rem;
+}
+
+.icon-sun {
+    margin-top: -2.9rem;
+    opacity: 0;
+}
+
+.form1 {
+    margin-top: -2rem;
+    width: 30%;
+    /* position: absolute; */
+}
+
+.form1-input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    border: none;
+    padding-left: 1rem;
+}
+
+/* @media only screen and (min-width: 400px) {
+    .form1-input {
+        transform: translateX(-48rem) translateY(3rem);
+        min-width: 85%;
+    }
+} */
+
+/* @media only screen and (min-width: 340px) {
+    .form1-input {
+        transform: translateX(-48rem) translateY(3rem);
+        width: 85%;
+    }
+} */
+
+.form1-input::placeholder {
+    color: gray;
+    font-size: 1.1rem;
+}
+
+input[type=text] {
+    font-size: 1.1rem;
+}
+
+
+.todo-list {
+    width: 30%;
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding: .5rem;
+    box-shadow: 5px 5px 10px grey;
+}
+
+/* @media only screen and (min-width: 400px) {
+    .todo-list {
+        transform: translateX(-48rem) translateY(5rem);
+        width: 85%;
+    } 
+} */
+/* 
+@media only screen and (min-width: 340px) {
+    .todo-list {
+        transform: translateX(-48rem) translateY(5rem);
+        width: 85%;
+    } 
+} */
+
+p {
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.check-icon {
+    background-image: linear-gradient(to right, blue, #9370DB);
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 12px;
+    margin-left: .8rem;
+}
+
+.cross-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: .8rem;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p1 {
+    margin-right: auto;
+}
+
+/* dark mode classes */
+.darkp {
+    color: white;
+}
+
+/* .open ~ .darkp {
+    color: white;
+}  */
+
+.darkul {
+    background-color: black;
+    color: white
+}
+
+.darkinput {
+    background-color: black;
+    color: white;
+}
+
+.darkbody {
+    background-color: black;
+}
+
+.darkimg {
+    display: block;
+}
+
+.darksun {
+    opacity: 1;
+}
+
+.darkmoon {
+    opacity: 0;
+}
